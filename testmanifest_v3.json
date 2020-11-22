@@ -1,0 +1,39 @@
+{
+    "id": "https://j-images.ch/iiif-av/test1/manifest.json",
+    "type": "Manifest",
+    "label": "One video file on one canvas",
+    "description": "a simple example with a single video-data",
+    "sequences": {
+        "type": "Sequence",
+        "canvases": [
+            {
+                "id": "https://j-images.ch/iiif-av/test1/canvas/1",
+                "width": 1280,
+                "height": 720,
+                "duration": 42,
+                "content": [
+                    {
+                        "id": "https://j-images.ch/iiif-av/test1/content/page/1",
+                        "type": "AnnotationPage",
+                        "items": [
+                            {
+                                "id": "https://j-images.ch/iiif-av/test1/content/anno/1",
+                                "type": "Annotation",
+                                "motivation": "painting",
+                                "body": {
+                                    "id": "https://NbtKmy.github.io/iiif_av_test/Tiger_nemu.mp4",
+                                    "type": "VideTo",
+                                    "format": "video/mp4",
+                                    "width": 1280,
+                                    "height": 720,
+                                    "duration": 42
+                                },
+                                "target": "https://j-images.ch/iiif-av/test1/canvas/1#xywh=0,0,1280,720&t=0,42"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
