@@ -7,6 +7,15 @@
     "type": "Manifest",
     "label": "One video file on one canvas",
     "description": "a simple example with a single mp4-data",
+    "thumbnail": [
+        {
+            "id": "https://nbtkmy.github.io/iiif_av_test/thumbnail_vid.png",
+            "type": "Image",
+            "format": "image/png",
+            "width": 619,
+            "height": 458
+        }
+    ],
     "sequences": [
         {
             "type": "Sequence",
