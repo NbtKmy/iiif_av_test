@@ -13,7 +13,7 @@ There are 4 more manifests in the collection page in the viewer.
 
 ## Comments & results (2020-11-24)
 ### Mirador
-Mirador can render one video object on one canvas. So Mirador renders one video or one video fragment. 
+Mirador seems to render one video object on one canvas. So rendering one video is no problem. 
 The video fragment is rendered successfully at the first time, but when you replay it, the viewer shows the video in the full length. 
 If you put more objects (2 videos in parallel or in a time sequence, or one video plus a caption line) on a canvas, the viewer recognizes only one object as item...
 
