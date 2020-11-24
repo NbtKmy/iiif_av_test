@@ -2,7 +2,7 @@
     "id": "https://nbtkmy.github.io/iiif_av_test/testmanifest_v3_vidFrag.json",
     "type": "Manifest",
     "label": "One video fragment on one canvas",
-    "description": "video fragment on a canvas",
+    "description": "a video fragment 10-25 sec. should be rendered on the canvas",
     "sequences": [
         {
             "type": "Sequence",
