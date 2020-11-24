@@ -1,4 +1,8 @@
 {
+    "@context":[
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+    ],
     "id": "https://nbtkmy.github.io/iiif_av_test/testmanifest_v3_2vids_2.json",
     "type": "Manifest",
     "label": "2 videos on one canvas (in a time sequence)",
