@@ -24,14 +24,7 @@
     {
       "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/F0000006/full/full/0/default.jpg",
       "type": "Image",
-      "format": "image/jpeg",
-      "service": [
-        {
-          "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/F0000006",
-          "type": "ImageService2",
-          "profile": "level1"
-        }
-      ]
+      "format": "image/jpeg"
     }
   ],
 
