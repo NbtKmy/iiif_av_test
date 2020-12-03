@@ -1,8 +1,5 @@
 {
-    "@context":[
-      "http://www.w3.org/ns/anno.jsonld",
-      "http://iiif.io/api/presentation/3/context.json"
-    ],
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://nbtkmy.github.io/iiif_av_test/testmanifest_v3_withCap.json",
     "type": "Manifest",
     "label": "One video file on one canvas with caption",
