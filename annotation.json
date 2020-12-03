@@ -18,7 +18,7 @@
     },
     {
       "id": "https://nbtkmy.github.io/iiif_av_test/annotation/a2",
-      "type": "Annotation"
+      "type": "Annotation",
       "motivation": "painting",
       "body": {
         "type": "ContentAsText",
