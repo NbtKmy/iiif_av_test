@@ -2,31 +2,36 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://nbtkmy.github.io/iiif_av_test/annotation.json",
   "type": "AnnotationPage",
-  "label": { "en": [ "Annotation to the Image from Edo Meido zue vol. 7" ] },
   "items": [
     {
       "id": "https://nbtkmy.github.io/iiif_av_test/annotation/a1",
       "type": "Annotation",
-      "motivation": "painting",
+      "motivation": "describing",
       "body": {
-        "type": "ContentAsText",
-        "chars": "東照大権現宮へ参詣す",
-        "format": "text/plain",
+        "type": "TextualBody",
+        "chars": "<h2>東照大権現宮へ参詣す</h2>",
+        "format": "text/html",
         "language": "ja"
       },
-      "target": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1#xywh=3960,832,300,1224"
+      "target": {
+        "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1#xywh=3960,832,300,1224",
+        "type": "Canvas"
+        }
     },
     {
       "id": "https://nbtkmy.github.io/iiif_av_test/annotation/a2",
       "type": "Annotation",
-      "motivation": "painting",
+      "motivation": "describing",
       "body": {
-        "type": "ContentAsText",
-        "chars": "制札",
-        "format": "text/plain",
+        "type": "TextualBody",
+        "chars": "<h2>制札</h2>",
+        "format": "text/html",
         "language": "ja"
       },
-      "target": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1#xywh=3744,1096,232,304"
+      "target": {
+        "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1#xywh=3744,1096,232,304",
+        "type": "Canvas"
+        }
     }
   ]
 }
