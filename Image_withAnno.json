@@ -22,16 +22,9 @@
 
   "thumbnail": [
     {
-      "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/F0000006/full/max/0/default.jpg",
+      "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/F0000006/full/full/0/default.jpg",
       "type": "Image",
-      "format": "image/jpeg",
-      "service": [
-        {
-          "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/F0000006",
-          "type": "ImageService3",
-          "profile": "level1"
-        }
-      ]
+      "format": "image/jpeg"
     }
   ],
 
@@ -60,82 +53,73 @@
       }
     ],
 
-  "items": [
+  "sequences": [
     {
-      "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1",
-      "type": "Canvas",
-      "label": { "none": [ "6th image in the book" ] },
-      "height": 5650,
-      "width": 6780,
-      "items": [
-        {
-          "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/page/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/annotation/p1-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/R0000006/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                  {
-                    "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/R0000006",
-                    "type": "ImageService3",
-                    "profile": "level2",
-                  }
-                ],
-                "height": 5650,
-                "width": 6780
+      "type": "Sequence",
+            "canvases": [
+              {
+                  "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1",
+                  "type": "Canvas",
+                  "label": { "none": [ "6th image in the book" ] },
+                  "height": 5650,
+                  "width": 6780,
+                  "content": [
+                    {
+                      "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/page/1",
+                      "type": "AnnotationPage",
+                      "items": [
+                        {
+                          "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/annotation/p1-image",
+                          "type": "Annotation",
+                          "motivation": "painting",
+                          "body": {
+                            "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/R0000006/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "height": 5650,
+                            "width": 6780
+                            },
+                          "target": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1"
+                        }
+                      ],
+                  "annotations": [
+                      {
+                        "id": "https://nbtkmy.github.io/iiif_av_test/annotation.json",
+                        "type": "AnnotationPage"
+                      }
+                    ]
+                    }
+                  ]
               },
-              "target": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1"
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "https://nbtkmy.github.io/iiif_av_test/annotation.json",
-          "type": "AnnotationPage"
-        }
-      ]
-    },
-    {
-      "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/2",
-      "type": "Canvas",
-      "label": { "none": [ "7th image in the book" ] },
-      "height": 5650,
-      "width": 6780,
-      "items": [
-        {
-          "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/page/2",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/annotation/p2-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/R0000007/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                  {
-                    "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/R0000007",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "height": 5650,
-                "width": 6780
-              },
-              "target": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/2"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+              {
+                  "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/2",
+                  "type": "Canvas",
+                  "label": { "none": [ "7th image in the book" ] },
+                  "height": 5650,
+                  "width": 6780,
+                  "content": [
+                    {
+                      "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/page/2",
+                      "type": "AnnotationPage",
+                      "items": [
+                        {
+                          "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/annotation/p2-image",
+                          "type": "Annotation",
+                          "motivation": "painting",
+                          "body": {
+                            "id": "https://www.dl.ndl.go.jp/api/iiif/2559049/R0000007/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "height": 5650,
+                            "width": 6780
+                            },
+                          "target": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/2"
+                        }
+                      ]
+                    }
+                  ]
+              }
+            ]
+          }
+        ]
 }
