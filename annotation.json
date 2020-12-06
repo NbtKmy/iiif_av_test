@@ -9,7 +9,7 @@
       "motivation": "describing",
       "body": {
         "type": "TextualBody",
-        "chars": "<h2>東照大権現宮へ参詣す</h2>",
+        "value": "<h2>東照大権現宮へ参詣す</h2>",
         "format": "text/html",
         "language": "ja"
       },
@@ -24,7 +24,7 @@
       "motivation": "describing",
       "body": {
         "type": "TextualBody",
-        "chars": "<h2>制札</h2>",
+        "value": "<h2>制札</h2>",
         "format": "text/html",
         "language": "ja"
       },
