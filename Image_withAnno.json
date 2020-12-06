@@ -85,7 +85,23 @@
                   "annotations": [
                       {
                         "id": "https://nbtkmy.github.io/iiif_av_test/annotation.json",
-                        "type": "AnnotationPage"
+                        "type": "AnnotationPage",
+                        "items": [
+                          {
+                            "id": "https://nbtkmy.github.io/iiif_av_test/annotation/a1",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "body": {
+                              "type": "TextualBody",
+                              "value": "<h2>東照大権現宮へ参詣す</h2>",
+                              "format": "text/html",
+                              "language": "ja"
+                            },
+                        "target": {
+                          "id": "https://nbtkmy.github.io/iiif_av_test/Image_withAnno/canvas/1#xywh=3960,832,300,1224",
+                          "type": "Canvas"
+                          }
+                        }
                       }
                     ]
                     }
