@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://nbtkmy.github.io/iiif_av_test/Image.json",
   "type": "Manifest",
-  "label": { "en": [ "Image with Annotation from Edo Meido zue vol. 7" ] },
+  "label": { "en": [ "Images from Edo Meido zue vol. 7" ] },
   "metadata": [
     {
       "label": { "ja": [ "著者" ] },
